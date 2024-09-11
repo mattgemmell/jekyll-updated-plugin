@@ -10,7 +10,7 @@ This raises the issue of surfacing those old stories — making them prominent 
 
 1. When I update an old post (or other content) in some way, like adding a video to a story, I add a field to the content's YAML front matter noting when the update was made: `updated: 2024-09-11`.
 
-2. The plugin, which is of the [generator](https://jekyllrb.com/docs/plugins/generators/) type then creates a new entry in the site's `data`, entitled `updated`. It's an array of information about each document which has the `updated` field in its front matter. Each entry contains:
+2. The plugin, which is of the [generator](https://jekyllrb.com/docs/plugins/generators/) type, then creates a new entry in the site's `data`, entitled `updated`. It's an array of information about each document which has the `updated` field in its front matter. Each entry contains:
 
 - The document's own front matter variables, including those inherited from its collection defaults.
 - Its `id`, `url`, and `collection` (specifically, the label/name of the collection).
