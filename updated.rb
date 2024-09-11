@@ -1,7 +1,7 @@
 module Updated
-  class Generator < Jekyll::Generator
-    def generate(site)
-      updated_docs = site.documents.select { |doc| doc.data['updated'] != nil }
+	class Generator < Jekyll::Generator
+		def generate(site)
+			updated_docs = site.documents.select { |doc| doc.data['updated'] != nil }
 			updated = []
 
 			updated_docs.each { |updated_doc|
@@ -19,6 +19,6 @@ module Updated
 			}
 
 			site.data['updated'] = updated
-    end
-  end
+		end
+	end
 end
