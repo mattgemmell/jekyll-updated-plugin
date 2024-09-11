@@ -1,6 +1,6 @@
 # jekyll-updated-plugin
 
-Jekyll plugin to list updated entries in site collections, by [Matt Gemmell](https://mattgemmell.scot/)
+A Jekyll plugin to list all updated entries in site collections, by [Matt Gemmell](https://mattgemmell.scot/).
 
 I use [Jekyll](https://jekyllrb.com) to build my site, and I make use of its support for discrete [collections](https://jekyllrb.com/docs/collections/) of content: my blog posts, my [books](https://mattgemmell.scot/books), bonus scenes, [short stories](https://mattgemmell.scot/stories), and so on.
 
